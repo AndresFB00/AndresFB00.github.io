@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(207.8deg, #332e2a 16.69%, #4a54aa 100%);
+}
+
+.bigcontainer {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+/* la carta pero no se como hacer que sea del tamaño de la info */
+.card {
+  /* esta es lo que hace la caja y el espacio entre las sombras */
+  box-shadow: 3px 3px 5px 0 rgba(47, 93, 107, 0.2);
+  transition: 0.3s;
+  padding: 10px 10px 10px 20px;
+  height: 600px;
+  width: 800px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background: linear-gradient(207.8deg, #74a37d 16.69%, #397964 100%);
+  margin: 25px auto;
+}
+
+/*pone la sombra en la carta*/
+.card:hover {
+  box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  border: 30px;
+  text-align: center;
+  padding: 26px 12px;
+  padding-top: 90px;
+  display: flex;
+  width: 600px;
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* l da estilos a la imagen como un borde*/
+img {
+  border-radius: 5px 5px 5px 5px;
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(173, 169, 169);
+}
+
+.container .title1 {
+  font-family: times;
+  font-size: 30px;
+  color: rgb(61, 59, 59);
+  padding-top: -150px;
+}
+
+.container .parrafo1 {
+  font-family: times;
+  font-size: 20px;
+  color: rgb(61, 59, 59);
+  padding-top: -150px;
+}
+
+.container .title2 {
+  font-family: times;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(61, 59, 59);
+  padding-top: -150px;
+}
+
+.container .parrafo2 {
+  font-family: times;
+  font-size: 20px;
+  color: rgb(61, 59, 59);
+  padding-top: -150px;
+}
