@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/estilos.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+    
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
   </head>
   <body>
-    <h1>Peliculas y series que recomiendo</h1>
+    
+    <h1 id="moviesid"></h1>
     <div class="bigcontainer">
       <div class="card">
         <img
@@ -15,12 +25,9 @@
           alt="imagen"
         />
         <div class="container">
-          <h2 class="title1">World War Z</h2>
-          <p class="parrafo1">
-            Esta pelicula a mi parecer en muy buena y aunque recorta muchas
-            partes de los 3 libros los que se baso habarca muy bien la trama y
-            cronologia de los hechos, no es aburrida y los temas son explicados
-            con facilidad y sin que se cientan forzados. Puntaje: 9,4
+          <h2 class="title1" id="titlezombi"></h2>
+          <p class="parrafo1" id="textzombi">
+            
           </p>
         </div>
       </div>
@@ -60,5 +67,6 @@
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
